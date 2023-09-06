@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="783.0" prefWidth="1196.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.panes.pane_manage_team_info">
+   <children>
+      <HBox prefHeight="142.0" prefWidth="1231.0">
+         <children>
+            <AnchorPane prefHeight="142.0" prefWidth="1217.0">
+               <children>
+                  <Label layoutX="34.0" layoutY="49.0" text="TEAMS" textFill="#fcf9f9">
+                     <font>
+                        <Font name="Berlin Sans FB" size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="90.0" prefHeight="24.0" prefWidth="206.0" text="Make Team and Hack " textFill="#07d7c9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Line endX="968.0" layoutX="240.0" layoutY="64.0" startX="-100.0" stroke="#ea0202" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <HBox layoutX="14.0" layoutY="145.0" prefHeight="45.0" prefWidth="1231.0" AnchorPane.bottomAnchor="593.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="145.0">
+         <children>
+            <AnchorPane prefHeight="126.0" prefWidth="34.0" />
+            <Button alignment="CENTER" mnemonicParsing="false" onMouseClicked="#addTeam" prefHeight="34.0" prefWidth="44.0" style="-fx-background-color: black;">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="36.0" onMouseClicked="#addTeam" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icon/icons8_add_32.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#deleteTeam" prefHeight="28.0" prefWidth="30.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="36.0" onMouseClicked="#deleteTeam" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icon/icons8_Reduce_32.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="anchor" layoutY="211.0" prefHeight="572.0" prefWidth="1231.0">
+         <children>
+            <ScrollPane fx:id="scrollpane" prefHeight="572.0" prefWidth="1231.0" stylesheets="@../css/scroll_pane.css">
+              <content>
+                  <VBox fx:id="team_vbox" prefHeight="574.0" prefWidth="1234.0" style="-fx-background-color: black;" />
+              </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

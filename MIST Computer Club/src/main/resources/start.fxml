@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anc" nodeOrientation="LEFT_TO_RIGHT" prefHeight="366.0" prefWidth="543.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.start">
+   <ImageView fitHeight="365.0" fitWidth="663.0" layoutX="-105.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@icon/wallpaperflare.com_wallpaper%20(4).jpg" />
+      </image>
+   </ImageView>
+   <Text fill="#81a0a6" layoutX="380.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIST" textAlignment="CENTER" wrappingWidth="161.67782592773438">
+      <font>
+         <Font name="AdobeGothicStd-Bold" size="62.0" />
+      </font>
+   </Text>
+   <Text fill="#afc1bf" layoutX="271.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cyber Security" textAlignment="RIGHT" wrappingWidth="264.8778381347656">
+      <font>
+         <Font name="Franklin Gothic Demi Cond" size="80.0" />
+      </font>
+   </Text>
+   <Text fill="#91b2b7" layoutX="374.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Club" textAlignment="CENTER" wrappingWidth="161.67782592773438">
+      <font>
+         <Font name="Franklin Gothic Book" size="62.0" />
+      </font>
+   </Text>
+   <AnchorPane fx:id="f" layoutX="543.0" prefHeight="371.0" prefWidth="134.0" style="-fx-background-color: transparent;">
+      <children>
+         <Polyline fx:id="pol2" fill="#9da496" layoutX="52.0" layoutY="258.0" onMouseClicked="#startkoro" points="-39.20001220703125, -27.999984741210938, 44.60003662109375, 11.20001220703125, 32.20001220703125, 20.5999755859375, -31.20001220703125, 59.199981689453125, 3.99993896484375, 11.199996948242188" strokeType="INSIDE" styleClass="polygon">
+            <effect>
+               <Glow />
+            </effect>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor></Polyline>
+         <Polyline fx:id="pol1" fill="#9da496" layoutX="75.0" layoutY="258.0" onMouseClicked="#startkoro" points="-31.20001220703125, -38.0, 42.39996337890625, 4.8000030517578125, -31.20001220703125, 49.199951171875, 2.39996337890625, 4.79998779296875" strokeType="INSIDE" styleClass="polygon">
+            <effect>
+               <Glow />
+            </effect>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor></Polyline>
+         <Polyline fx:id="pol3" fill="#9da496" layoutX="52.0" layoutY="290.0" onMouseClicked="#startkoro" points="-39.20001220703125, -27.999984741210938, 44.60003662109375, 11.20001220703125, 32.20001220703125, 20.5999755859375, -31.20001220703125, 59.199981689453125, 3.99993896484375, 11.199996948242188" strokeType="INSIDE" styleClass="polygon">
+            <effect>
+               <Glow />
+            </effect>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor></Polyline>
+         <Polyline fx:id="pol4" fill="#9da496" layoutX="75.0" layoutY="290.0" onMouseClicked="#startkoro" points="-31.20001220703125, -38.0, 42.39996337890625, 4.8000030517578125, -31.20001220703125, 49.199951171875, 2.39996337890625, 4.79998779296875" strokeType="INSIDE" styleClass="polygon">
+            <effect>
+               <Glow />
+            </effect>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor></Polyline>
+      </children>
+   </AnchorPane>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

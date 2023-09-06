@@ -1,0 +1,4 @@
+.round-lbl{
+    -fx-background-color : red;
+    -fx-background-radius : 100%;
+}

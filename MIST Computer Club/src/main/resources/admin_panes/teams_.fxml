@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="286.0" prefWidth="1196.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.panes.teams">
+   <children>
+      <Label fx:id="team_name" layoutX="48.0" layoutY="14.0" prefHeight="56.0" prefWidth="221.0" text="403_Forbidden" textFill="#0cdada">
+         <font>
+            <Font name="Century Gothic Bold" size="26.0" />
+         </font>
+      </Label>
+      <HBox layoutY="84.0" prefHeight="183.0" prefWidth="1196.0" style="-fx-background-color: black; -fx-background-radius: 50; -fx-border-radius: 50;">
+         <children>
+            <AnchorPane prefHeight="166.0" prefWidth="598.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="598.0">
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Circle fx:id="im1" fill="#06233e" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Label fx:id="email1" alignment="CENTER" prefHeight="102.0" prefWidth="331.0" text="Capt. Asif Imtiaj" textFill="WHITE">
+                                 <font>
+                                    <Font size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Circle fx:id="im2" fill="#06233e" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Label fx:id="email2" alignment="CENTER" prefHeight="102.0" prefWidth="331.0" text="Md. Jawadur Rahman" textFill="WHITE">
+                                 <font>
+                                    <Font size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="183.0" prefWidth="598.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="598.0">
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Circle fx:id="im3" fill="#06233e" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Label fx:id="email3" alignment="CENTER" prefHeight="102.0" prefWidth="331.0" text="Muntasir Hasan Porag" textFill="WHITE">
+                                 <font>
+                                    <Font size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Circle fx:id="im4" fill="#06233e" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Label fx:id="email4" alignment="CENTER" prefHeight="102.0" prefWidth="331.0" text="Shakil Mosharraf" textFill="WHITE">
+                                 <font>
+                                    <Font size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

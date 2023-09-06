@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1196.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.Class_Schedule.edit_page1">
+   <children>
+      <AnchorPane layoutX="40.0" layoutY="107.0" prefHeight="180.0" prefWidth="550.0" style="-fx-background-color: #1b1d24;" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="88.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="38.0" prefWidth="106.0" text="Class 5" textFill="#59d8ff">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="class5" alignment="CENTER" layoutX="14.0" layoutY="68.0" prefHeight="50.0" prefWidth="308.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@../../../admin_panes/Class_Schedule/style.css" textFill="WHITE">
+               <font>
+                  <Font size="38.0" />
+               </font></Label>
+            <Label fx:id="date5" alignment="CENTER" layoutX="358.0" layoutY="14.0" prefHeight="43.0" prefWidth="170.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@../../../admin_panes/Class_Schedule/style.css" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="date_5" alignment="CENTER" layoutX="358.0" layoutY="68.0" prefHeight="43.0" prefWidth="170.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@../../../admin_panes/Class_Schedule/style.css" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="40.0" layoutY="352.0" prefHeight="180.0" prefWidth="550.0" style="-fx-background-color: #1b1d24;" AnchorPane.bottomAnchor="87.0" AnchorPane.leftAnchor="30.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="38.0" prefWidth="106.0" text="Class 7" textFill="#59d8ff">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="class7" alignment="CENTER" layoutX="14.0" layoutY="65.0" prefHeight="50.0" prefWidth="308.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@../../../admin_panes/Class_Schedule/style.css" textFill="WHITE">
+               <font>
+                  <Font size="38.0" />
+               </font></Label>
+            <Label fx:id="date7" alignment="CENTER" layoutX="365.0" layoutY="14.0" prefHeight="43.0" prefWidth="170.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@../../../admin_panes/Class_Schedule/style.css" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="date_7" alignment="CENTER" layoutX="365.0" layoutY="68.0" prefHeight="43.0" prefWidth="170.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@../../../admin_panes/Class_Schedule/style.css" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="611.0" layoutY="88.0" prefHeight="180.0" prefWidth="550.0" style="-fx-background-color: #1b1d24;" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="88.0">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="38.0" prefWidth="106.0" text="Class 6" textFill="#59d8ff">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="date6" alignment="CENTER" layoutX="361.0" layoutY="14.0" prefHeight="43.0" prefWidth="170.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@../../../admin_panes/Class_Schedule/style.css" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="date_6" alignment="CENTER" layoutX="361.0" layoutY="68.0" prefHeight="43.0" prefWidth="170.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@../../../admin_panes/Class_Schedule/style.css" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="class6" alignment="CENTER" layoutX="14.0" layoutY="73.0" prefHeight="50.0" prefWidth="308.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@../../../admin_panes/Class_Schedule/style.css" textFill="WHITE">
+               <font>
+                  <Font size="38.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="640.0" layoutY="352.0" prefHeight="180.0" prefWidth="550.0" style="-fx-background-color: #1b1d24;" AnchorPane.bottomAnchor="87.0" AnchorPane.rightAnchor="30.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="38.0" prefWidth="106.0" text="Class 8" textFill="#59d8ff">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="date8" alignment="CENTER" layoutX="361.0" layoutY="14.0" prefHeight="43.0" prefWidth="170.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@../../../admin_panes/Class_Schedule/style.css" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="date_8" alignment="CENTER" layoutX="361.0" layoutY="72.0" prefHeight="43.0" prefWidth="170.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@../../../admin_panes/Class_Schedule/style.css" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="class8" alignment="CENTER" layoutX="14.0" layoutY="69.0" prefHeight="50.0" prefWidth="308.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@../../../admin_panes/Class_Schedule/style.css" textFill="WHITE">
+               <font>
+                  <Font size="38.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

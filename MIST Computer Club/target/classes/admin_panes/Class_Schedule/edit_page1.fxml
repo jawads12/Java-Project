@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1196.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.Class_Schedule.edit_page1">
+   <children>
+      <AnchorPane layoutX="40.0" layoutY="107.0" prefHeight="180.0" prefWidth="550.0" style="-fx-background-color: #1b1d24;" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="88.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="38.0" prefWidth="106.0" text="Class 1" textFill="#59d8ff">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <TextField fx:id="class1" alignment="CENTER" layoutX="67.0" layoutY="65.0" prefHeight="50.0" prefWidth="308.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@style.css">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="date1" alignment="CENTER" layoutX="345.0" prefHeight="43.0" prefWidth="206.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@style.css">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="date_1" alignment="CENTER" layoutX="345.0" layoutY="43.0" prefHeight="43.0" prefWidth="206.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@style.css">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="40.0" layoutY="352.0" prefHeight="180.0" prefWidth="550.0" style="-fx-background-color: #1b1d24;" AnchorPane.bottomAnchor="87.0" AnchorPane.leftAnchor="30.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="38.0" prefWidth="106.0" text="Class 3" textFill="#59d8ff">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <TextField fx:id="class3" alignment="CENTER" layoutX="97.0" layoutY="61.0" prefHeight="50.0" prefWidth="308.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@style.css">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="date3" alignment="CENTER" layoutX="343.0" prefHeight="43.0" prefWidth="206.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@style.css">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="date_3" alignment="CENTER" layoutX="343.0" layoutY="43.0" prefHeight="43.0" prefWidth="206.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@style.css">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="611.0" layoutY="88.0" prefHeight="180.0" prefWidth="550.0" style="-fx-background-color: #1b1d24;" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="88.0">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="38.0" prefWidth="106.0" text="Class 2" textFill="#59d8ff">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <TextField fx:id="class2" alignment="CENTER" layoutX="89.0" layoutY="58.0" prefHeight="50.0" prefWidth="308.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@style.css">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="date2" alignment="CENTER" layoutX="343.0" prefHeight="43.0" prefWidth="206.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@style.css">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="date_2" alignment="CENTER" layoutX="343.0" layoutY="43.0" prefHeight="43.0" prefWidth="206.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@style.css">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="640.0" layoutY="352.0" prefHeight="180.0" prefWidth="550.0" style="-fx-background-color: #1b1d24;" AnchorPane.bottomAnchor="87.0" AnchorPane.rightAnchor="30.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="38.0" prefWidth="106.0" text="Class 4" textFill="#59d8ff">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <TextField fx:id="class4" alignment="CENTER" layoutX="81.0" layoutY="54.0" prefHeight="50.0" prefWidth="308.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@style.css">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="date4" alignment="CENTER" layoutX="343.0" prefHeight="43.0" prefWidth="206.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@style.css">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="date_4" alignment="CENTER" layoutX="343.0" layoutY="43.0" prefHeight="43.0" prefWidth="206.0" style="-fx-background-color: transparent;" styleClass="textfield" stylesheets="@style.css">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <JFXButton layoutX="1000.0" layoutY="14.0" onMouseClicked="#update" prefHeight="38.0" prefWidth="182.0" style="-fx-background-color: #2e2409;" text="Update" textFill="#07d7c9" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

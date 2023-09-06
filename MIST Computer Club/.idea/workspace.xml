@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="edba483c-7093-4774-867a-e1aef1242ae8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/CTF_names.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/Mail_background_task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/contacts_user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/Class_Schedule/class_schedule_info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/Class_Schedule/edit_page1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/Class_Schedule/edit_page2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/Class_Schedule/edit_page3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/DASHBOARD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/NotificationsPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/OTP_newPass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/CTF/ctf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/CTF/ctf_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/Class_Schedule/class_schedule_info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/Class_Schedule/edit_page1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/Class_Schedule/edit_page2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/Class_Schedule/edit_page3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/USER_DASH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/announcements/announcements_pane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/announcements/details.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/announcements/items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/contacts/contacts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/contacts/pane_contact_info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/dashboard_pane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/feedback/contacts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/feedback/feedback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/my_profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/admin_dashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/announcements/add_announce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/announcements/announcements_pane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/announcements/details.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/announcements/items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/announcements/rmv_annc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/current_user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/forget_OTP_submit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/forget_pass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/panes/browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/panes/contacts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/panes/ctf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/panes/ctf_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/panes/ctfadd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/panes/ctfrmv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/panes/dashboard_pane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/panes/feed_items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/panes/feedback_pane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/panes/pane_contact_info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/panes/pane_manage_team_info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/panes/team_min.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/panes/team_reg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/panes/teams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/reg_send_mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/universal_Mail_sender_bg_task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/warning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/hash_generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/team_user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/universal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SuperAdmin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/Student_DASH.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/CTF/CTF_pane.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/CTF/ctf_.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/CTF_pane.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/Class_Schedule/class_schedule_main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/Class_Schedule/edit_page1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/Class_Schedule/edit_page2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/Class_Schedule/edit_page3.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/add_CTF.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/announcement/announce_item.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/announcement/announce_pane.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/announcement/details.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/contacts.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/contacts/contacts.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/contacts/pane_contact_info.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/contacts/textfeild.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/css/addCTFtextfeild.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/css/buttonstyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/css/roundlabel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/css/scroll_pane.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/css/textfeild.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/ctf_.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/dashboard_pane/pane_dashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/dashboard_pane/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/feedback/feedback.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/feedback/item.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/feedback/textfeild.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/QjJe.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/compu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/customer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/cyber.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/form.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8-error-96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8-error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8-forgot-password-100 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8-forgot-password-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8-forgot-password-80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8-notification-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8-user-male.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8-users.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_Cyber_Security.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_Cyber_Security_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_Cyber_Security_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_Flag.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_Flag_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_Flag_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_Reduce.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_Reduce_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_Reduce_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_add.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_add_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_add_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_conference.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_conference_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_conference_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_contacts_500px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_edit_profile.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_edit_profile_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_edit_profile_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_hacking.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_hacking_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_hacking_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_member.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_member_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_member_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_microsoft_teams_2019.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_microsoft_teams_2019_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_microsoft_teams_2019_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_password.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_password_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_password_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_secured_letter.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_secured_letter_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_secured_letter_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_teacher.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_teacher_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_teacher_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_user.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_user_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/icons8_user_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/logo.xcf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/mouse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/password.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/profile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/sd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/user.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/user_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/icon/user_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/my_profile.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/pane_contact_info.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/pane_manage_team.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/remove_CTF.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/team_min.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/team_reg.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/teams_.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/textfeild.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/css/addCTFtextfeild.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/css/buttonstyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/css/roundlabel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/css/scroll_pane.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/css/textfeild.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/QjJe.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/compu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/customer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/cyber.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/form.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8-error-96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8-error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8-forgot-password-100 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8-forgot-password-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8-forgot-password-80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8-notification-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8-user-male.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8-users.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_Cyber_Security.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_Cyber_Security_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_Cyber_Security_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_Flag.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_Flag_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_Flag_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_Reduce.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_Reduce_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_Reduce_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_add.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_add_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_add_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_conference.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_conference_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_conference_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_contacts_500px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_edit_profile.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_edit_profile_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_edit_profile_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_hacking.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_hacking_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_hacking_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_member.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_member_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_member_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_microsoft_teams_2019.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_microsoft_teams_2019_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_microsoft_teams_2019_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_password.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_password_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_password_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_secured_letter.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_secured_letter_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_secured_letter_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_teacher.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_teacher_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_teacher_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_user.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_user_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/icons8_user_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/logo.xcf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/mouse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/password.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/profile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/sd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/user.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/user_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/icon/user_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/login_reg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/USER/success.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/CTF_pane.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/Class_Schedule/class_schedule_main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/Class_Schedule/edit_page1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/Class_Schedule/edit_page2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/Class_Schedule/edit_page3.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/Class_Schedule/page1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/Class_Schedule/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/add_CTF.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/contacts.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/ctf_.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/pane_contact_info.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/pane_dashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/pane_manage_team.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/remove_CTF.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/team_min.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/team_reg.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin_panes/teams_.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/announcement/add_announce.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/announcement/announce_item.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/announcement/announce_pane.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/announcement/details.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/announcement/remove_annc.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/back.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/browser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/addCTFtextfeild.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/buttonstyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/roundlabel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/scroll_pane.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/textfeild.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/CTF/Flag Hunt 2022.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/CTF/Leetcon 2022.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/CTF/MISTCOn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/CTF/NahamCon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/CTF/SUST CTF.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Feedback/Class 1/a@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Feedback/Class 1/ahbab.raiyan@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Feedback/Class 1/brbinti302@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Feedback/Class 1/mariarifa2018@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Feedback/Class 10/jawadrahman483@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Feedback/Class 11/ahbab.raiyan@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Feedback/Class 12/a@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Feedback/Class 12/jawadrahman483@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Feedback/Class 2/a@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Feedback/Class 2/ahbab.raiyan@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Feedback/Class 2/jawadrahman483@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Feedback/Class 2/saibanitisha@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Feedback/Class 2/shahriarkhan.ndc@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Feedback/Class 3/a@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Schedule/Class1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Schedule/Class10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Schedule/Class11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Schedule/Class12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Schedule/Class2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Schedule/Class3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Schedule/Class4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Schedule/Class5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Schedule/Class6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Schedule/Class7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Schedule/Class8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Schedule/Class9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/ahbab.raiyan@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/ahbab.raiyan@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/ahbab.raiyan@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/ahbab.raiyan@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/jawadrahman483@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/jawadrahman483@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/jawadrahman483@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/jawadrahman483@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/jawadrahman483@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/mayeshatasnim54@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/mayeshatasnim54@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/mayeshatasnim54@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/mayeshatasnim54@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/mayeshatasnim54@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/smnafis1971@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/smnafis1971@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/smnafis1971@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/smnafis1971@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/smnafis1971@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/asifimitaz9310@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/asifimitaz9310@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/asifimitaz9310@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/asifimitaz9310@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/asifimitaz9310@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/mariarifa2018@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/mariarifa2018@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/mariarifa2018@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/mariarifa2018@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/mariarifa2018@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/mjashtan531@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/mjashtan531@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/mjashtan531@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/mjashtan531@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/mjashtan531@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/sejutydas20021@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/sejutydas20021@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/sejutydas20021@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/sejutydas20021@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/404_NotFound/sejutydas20021@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/announces/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/announces/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/announces/4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/a@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/a@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/a@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/a@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/ahbab.raiyan@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/ahbab.raiyan@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/ahbab.raiyan@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/ahbab.raiyan@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/ahbab.raiyan@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/asifimitaz9310@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/asifimitaz9310@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/asifimitaz9310@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/asifimitaz9310@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/asifimitaz9310@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/brbinti302@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/brbinti302@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/brbinti302@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/brbinti302@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/brbinti302@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/humayraakter25@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/humayraakter25@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/humayraakter25@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/humayraakter25@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/humayraakter25@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/jawadrahman483@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/jawadrahman483@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/jawadrahman483@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/jawadrahman483@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mariarifa2018@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mariarifa2018@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mariarifa2018@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mariarifa2018@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mariarifa2018@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mayeshatasnim54@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mayeshatasnim54@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mayeshatasnim54@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mayeshatasnim54@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mayeshatasnim54@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mjashtan531@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mjashtan531@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mjashtan531@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mjashtan531@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mjashtan531@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/nabilfaruk@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/nabilfaruk@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/nabilfaruk@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/nabilfaruk@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/nabilfaruk@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/raisa@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/raisa@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/raisa@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/raisa@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/raisa@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/raisarahman1904@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/raisarahman1904@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/raisarahman1904@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/raisarahman1904@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/raisarahman1904@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/saibanitisha@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/saibanitisha@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/saibanitisha@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/saibanitisha@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/saibanitisha@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/sejutydas20021@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/sejutydas20021@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/sejutydas20021@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/sejutydas20021@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/sejutydas20021@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/shahriarkhan.ndc@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/shahriarkhan.ndc@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/shahriarkhan.ndc@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/shahriarkhan.ndc@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/shahriarkhan.ndc@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/shuminnahar8di@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/shuminnahar8di@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/shuminnahar8di@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/shuminnahar8di@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/shuminnahar8di@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/smnafis1971@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/smnafis1971@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/smnafis1971@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/smnafis1971@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/smnafis1971@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/tahsina.mayome0703@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/tahsina.mayome0703@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/tahsina.mayome0703@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/tahsina.mayome0703@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/tahsina.mayome0703@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/tmayesha41@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/tmayesha41@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/tmayesha41@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/tmayesha41@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/tmayesha41@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/uddiniftekhar33@gmail.com/hash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/uddiniftekhar33@gmail.com/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/uddiniftekhar33@gmail.com/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/uddiniftekhar33@gmail.com/noti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/uddiniftekhar33@gmail.com/team.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feedback_ADMIN/d/css/addCTFtextfeild.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feedback_ADMIN/d/css/buttonstyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feedback_ADMIN/d/css/roundlabel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feedback_ADMIN/d/css/scroll_pane.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feedback_ADMIN/d/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feedback_ADMIN/d/css/textfeild.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feedback_ADMIN/d/feed_items.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feedback_ADMIN/d/feedback_pane.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feedback_ADMIN/d/textfeild.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/forget_pass.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/forget_pass_OTP.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/forget_pass_OTP_NewPass.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/3001758(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/3001791.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/3001815.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/3001817.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/3001818.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/4113040.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/4113045.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/4568437.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/4691181.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/cbr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/coding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/csc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/ct.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/ct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/cyber-security-1805246.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/cyber.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/cyberninja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8-forgot-password-100 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8-forgot-password-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8-forgot-password-80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8-notification-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Activity_Feed.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Activity_Feed_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Activity_Feed_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Cat_Profile.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Cat_Profile_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Cat_Profile_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Checkmark.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Checkmark_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Checkmark_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Cyber_Security.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Cyber_Security_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Cyber_Security_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Facebook.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Facebook_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Facebook_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Flag.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Flag_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Flag_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Go_Back.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Go_Back_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Go_Back_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_LinkedIn.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_LinkedIn_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_LinkedIn_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Reduce.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Reduce_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Reduce_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Virus.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Virus_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Virus_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Warning_Shield.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Warning_Shield_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_Warning_Shield_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_add.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_add_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_add_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_back.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_back_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_back_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_back_to.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_back_to_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_back_to_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_blue_screen_of_death.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_blue_screen_of_death_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_blue_screen_of_death_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_check_mark.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_check_mark_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_check_mark_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_checkmark_yes.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_checkmark_yes_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_checkmark_yes_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_close.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_close_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_close_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_cloud_binary_code_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_conference.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_conference_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_conference_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_contacts_500px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_dsFlag.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_dsFlag_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_dsFlag_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_edit_profile.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_edit_profile_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_edit_profile_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_hacking.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_hacking_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_hacking_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_login.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_login_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_login_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_logout_rounded_up.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_logout_rounded_up_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_logout_rounded_up_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_malwarebytes.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_malwarebytes_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_malwarebytes_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_member.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_member_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_member_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_memberdfico.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_memberdfico_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_memberdfico_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_messages.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_messages_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_messages_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_microsoft_teams_2019.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_microsoft_teams_2019_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_microsoft_teams_2019_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_microsoft_teamsv_2019.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_microsoft_teamsv_2019_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_microsoft_teamsv_2019_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_password.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_password_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_password_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_phishing.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_phishing_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_phishing_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_play.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_play_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_play_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_reset.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_reset_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_reset_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_schedule.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_schedule_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_schedule_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_search.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_search_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_search_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_secured_letter.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_secured_letter_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_secured_letter_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_splay.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_splay_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_splay_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_teacher.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_teacher_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_teacher_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_undo.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_undo_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_undo_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_user.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_user_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_user_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_virus_research.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_virus_research_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_virus_research_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_vsirus.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_vsirus_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_vsirus_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_youtube.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_youtube_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/icons8_youtube_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/images.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/logo.xcf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/plash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/sd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/sejuty.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/user.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/user_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/user_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/wallpaperflare-cropped (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/wallpaperflare-cropped (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/wallpaperflare-cropped (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/wallpaperflare-cropped.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/wallpaperflare..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/wallpaperflare.com_wallpaper (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/wallpaperflare.com_wallpaper (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/wallpaperflare.com_wallpaper (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/wallpaperflare.com_wallpaper (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/wallpaperflare.com_wallpaper (5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/wallpaperflare.com_wallpaper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/xacky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/notifications_pane.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/start.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/textfeild.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/warning.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/admin_user.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/LoginReg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/LoginReg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/member_user.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/user.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/LOGIN_final.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/LOGIN_final.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/REGISTER_FINAL.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/panels.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Set_password_register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/password_not_matched.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/already_existed_account.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/,/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/abrar@gmail.com/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/anamika@mail/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/asifimtiaj@gmail.com/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/dfsgsdfg/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/fdh/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/fgdsdg/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/fr/hash.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/fr/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/ggggg/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/ghfjfgh/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/hgfdhg/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/iftu@gmail.com/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/ijij/hash.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/ijij/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/j/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/jawadrah/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/jawadrahman483@gmail.com/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/member/jawadrahman483@gmail.com/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/jhjh,mkm/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/jhjh/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/kj/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/lk/hash.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/lk/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/lplp/hash.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/lplp/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/mayesha@gmail.com/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/nafis@gmail.com/hash.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/nafis@gmail.com/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/oi/hash.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/bgTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/oi/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/ou/hash.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/ou/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/pl/hash.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/pl/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/po/hash.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/po/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/tr/hash.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/tr/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/trt/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/uni/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/USER/admin_panes/New Text Document.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/unik/hash.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/accounts/Teams/403_Forbidden/ahbab.raiyan@gmail.com/noti.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/unik/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/uy/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/wfwww/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/xakaria@gmail.com/hash.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/xakaria@gmail.com/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/accounts/member/yyy/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login_reg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/login_reg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/register.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/setpassword.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/start.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/start.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/LoginReg.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/REGISTER_FINAL.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/dashboard_pane.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/USER/my_profile.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/admin_dashboard.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/announcements/add_announce.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/announcements/announcements_pane.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/forget_OTP_submit.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/mist_computer_club/controller/start.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2FkKIX5MLJT89hAe0OebHC7tC0p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/drive-download-20230603T194148Z-001",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.mist_computer_club.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\Projects\MIST Computer CLub\MIST Computer Club\src\main\resources\USER" />
+      <recent name="E:\Java\Projects\MIST Computer CLub\MIST Computer Club\src\main\resources\USER\admin_panes\dashboard_pane" />
+      <recent name="E:\Java\Projects\MIST Computer CLub\MIST Computer Club\src\main\java" />
+      <recent name="E:\Java\Projects\MIST Computer CLub\MIST Computer Club\src" />
+      <recent name="E:\Java\Projects\MIST Computer CLub\MIST Computer Club\src\main\resources\feedback_ADMIN\d" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\Projects\MIST Computer CLub\MIST Computer Club\src\main\resources\USER\admin_panes\dashboard_pane" />
+      <recent name="E:\Java\Projects\MIST Computer CLub\MIST Computer Club\src\main\resources\Student" />
+      <recent name="E:\Java\Projects\MIST Computer CLub\MIST Computer Club\src\main\resources\admin_panes" />
+      <recent name="E:\Java\Projects\MIST Computer CLub\MIST Computer Club\src\main\resources\icon" />
+      <recent name="E:\Java\Projects\MIST Computer CLub\MIST Computer Club\src\main\resources" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.mist_computer_club.controller.announcements" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.mist_computer_club" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.mist_computer_club.controller" />
+      <recent name="com.example.mist_computer_club.controller.USER" />
+      <recent name="com.example.mist_computer_club.controller.Class_Schedule" />
+      <recent name="com.example.mist_computer_club.controller.panes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MAIN" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mist_computer_club.Main" />
+      <module name="CLub" />
+      <option name="VM_PARAMETERS" value="--add-modules javafx.web" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edba483c-7093-4774-867a-e1aef1242ae8" name="Changes" comment="" />
+      <created>1665030565219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665030565219</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.IOException" package="java.io" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MIST_Computer_Club$MAIN.ic" NAME="MAIN Coverage Results" MODIFIED="1671241725283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

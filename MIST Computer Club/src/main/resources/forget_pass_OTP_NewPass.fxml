@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="399.0" prefWidth="545.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.OTP_newPass">
+    <children>
+        <ImageView fitHeight="176.0" fitWidth="173.0" layoutX="186.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@icon/sd.png" />
+            </image>
+        </ImageView>
+        <JFXButton layoutX="145.0" layoutY="303.0" onMouseClicked="#set" prefHeight="17.0" prefWidth="266.0" style="-fx-background-color: grey;" text="Set" textFill="WHITE" />
+      <PasswordField fx:id="new_pass" alignment="CENTER" layoutX="27.0" layoutY="158.0" prefHeight="50.0" prefWidth="490.0" promptText="NEW PASSWORD" style="-fx-background-color: grey; -fx-background-radius: 60;">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="con_pass" alignment="CENTER" layoutX="33.0" layoutY="222.0" prefHeight="50.0" prefWidth="490.0" promptText="CONFIRM PASSWORD" style="-fx-background-color: grey; -fx-background-radius: 60;">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </PasswordField>
+    </children>
+</AnchorPane>

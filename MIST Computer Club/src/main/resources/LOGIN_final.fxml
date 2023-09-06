@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.LoginReg">
+    <AnchorPane focusTraversable="true" layoutX="400.0" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <Label layoutX="145.0" layoutY="165.0" text="Sign In" textAlignment="CENTER">
+            <font>
+                <Font name="Berlin Sans FB" size="40.0" />
+            </font>
+        </Label>
+        <TextField fx:id="email" focusTraversable="false" layoutX="108.0" layoutY="235.0" prefHeight="28.0" prefWidth="220.0" promptText="Email" styleClass="logintextfield" stylesheets="@login_reg.css">
+            <font>
+                <Font size="15.0" />
+            </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+        </TextField>
+        <PasswordField fx:id="pass" focusTraversable="false" layoutX="108.0" layoutY="281.0" prefHeight="28.0" prefWidth="220.0" promptText="Password" styleClass="logintextfield" stylesheets="@login_reg.css">
+            <font>
+                <Font size="15.0" />
+            </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+        </PasswordField>
+        <Label layoutX="33.0" layoutY="439.0" text="Haven't joined the club yet?">
+            <font>
+                <Font name="Berlin Sans FB" size="18.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="125.0" layoutY="14.0" opacity="0.89" pickOnBounds="true" preserveRatio="true">
+            <Image url="@icon/profile.gif" />
+        </ImageView>
+      <JFXButton layoutX="291.0" layoutY="432.0" onMouseClicked="#joinkor" prefHeight="36.0" prefWidth="74.0" style="-fx-background-color: black;" text="Join" textFill="#a2dcf4">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton layoutX="187.0" layoutY="352.0" onMouseClicked="#login" prefHeight="42.0" prefWidth="74.0" style="-fx-background-color: black;" text="Login" textFill="#a2dcf4">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Text fx:id="forget" layoutX="207.0" layoutY="337.0" onMouseClicked="#forget_pass" strokeType="OUTSIDE" strokeWidth="0.0" text="Forget your password?" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Text>
+    </AnchorPane>
+    <AnchorPane prefHeight="500.0" prefWidth="419.0" styleClass="login_reg-bg" stylesheets="@login_reg.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <Text fill="#fffffffc" layoutX="22.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIST Cyber Security Club" textAlignment="CENTER" wrappingWidth="375.6455078125">
+            <font>
+                <Font name="GOST Common" size="35.0" />
+            </font>
+        </Text>
+        <Text fill="#d4d4d4" layoutX="127.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dept. of CSE" textAlignment="CENTER" wrappingWidth="145.6455078125">
+            <font>
+                <Font name="GOST Common" size="26.0" />
+            </font>
+        </Text>
+        <Text fill="#d4d4d4" layoutX="3.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Military Institute of Science and Technology" textAlignment="CENTER" wrappingWidth="393.24554443359375">
+            <font>
+                <Font name="GOST Common" size="20.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="219.0" fitWidth="270.0" layoutX="65.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@icon/cyber.png" />
+        </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="30.0" layoutX="323.0" layoutY="452.0" onMouseClicked="#youtube" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icon/icons8_youtube_32.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="29.0" layoutX="285.0" layoutY="452.0" onMouseClicked="#fb" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icon/icons8_Facebook_32.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="365.0" layoutY="452.0" onMouseClicked="#linked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icon/icons8_LinkedIn_32.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+    </AnchorPane>
+</AnchorPane>

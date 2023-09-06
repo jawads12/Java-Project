@@ -1,0 +1,8 @@
+
+ .team_name_textfield{
+     -fx-prompt-text-fill: black;
+      -fx-text-inner-color:black;
+ }
+ .team_name_textfield:focused{
+    -fx-prompt-text-fill: transparent;
+ }

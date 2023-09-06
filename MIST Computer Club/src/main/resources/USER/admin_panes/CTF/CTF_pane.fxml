@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="783.0" prefWidth="1196.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.USER.CTF.ctf">
+   <children>
+      <HBox prefHeight="142.0" prefWidth="1231.0">
+         <children>
+            <AnchorPane prefHeight="142.0" prefWidth="1217.0">
+               <children>
+                  <Label layoutX="34.0" layoutY="49.0" text="CTF" textFill="#fcf9f9">
+                     <font>
+                        <Font name="Berlin Sans FB" size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="90.0" prefHeight="24.0" prefWidth="206.0" text="cat flag.txt" textFill="#07d7c9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Line endX="968.0" layoutX="240.0" layoutY="64.0" startX="-142.40000915527344" startY="7.62939453125E-6" stroke="#ea0202" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <HBox layoutX="14.0" layoutY="145.0" prefHeight="42.0" prefWidth="1232.0" style="-fx-background-color: #0e3238;" AnchorPane.bottomAnchor="731.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="145.0">
+         <children>
+            <AnchorPane prefHeight="46.0" prefWidth="461.0">
+               <children>
+                  <Label alignment="CENTER" layoutY="1.0" prefHeight="46.0" prefWidth="462.0" style="-fx-border-color: #041214;" text="CTF" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+               </children></AnchorPane>
+            <AnchorPane prefHeight="46.0" prefWidth="461.0">
+               <children>
+                  <Label alignment="CENTER" layoutY="1.0" prefHeight="46.0" prefWidth="385.0" style="-fx-border-color: #041214;" text="DATE" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="46.0" prefWidth="461.0">
+               <children>
+                  <Label alignment="CENTER" layoutY="1.0" prefHeight="46.0" prefWidth="384.0" style="-fx-border-color: #041214;" text="LINK" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="anchor" layoutY="193.0" prefHeight="590.0" prefWidth="1231.0">
+         <children>
+            <ScrollPane prefHeight="572.0" prefWidth="1231.0" stylesheets="@../css/scroll_pane.css">
+              <content>
+                  <VBox fx:id="team_vbox" prefHeight="596.0" prefWidth="1234.0" style="-fx-background-color: black;" />
+              </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

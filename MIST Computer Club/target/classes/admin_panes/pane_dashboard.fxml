@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="783.0" prefWidth="1196.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.panes.dashboard_pane">
+   <children>
+      <HBox prefHeight="142.0" prefWidth="1231.0">
+         <children>
+            <AnchorPane prefHeight="131.0" prefWidth="290.0">
+               <children>
+                  <Label layoutX="34.0" layoutY="49.0" text="DASHBOARD" textFill="#fcf9f9">
+                     <font>
+                        <Font name="Berlin Sans FB" size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="90.0" prefHeight="24.0" prefWidth="206.0" text="Welcome to your dashboard" textFill="#07d7c9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <HBox layoutX="14.0" layoutY="145.0" prefHeight="166.0" prefWidth="1231.0" AnchorPane.bottomAnchor="512.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="145.0">
+         <children>
+            <AnchorPane prefHeight="126.0" prefWidth="34.0" />
+            <AnchorPane prefHeight="166.0" prefWidth="268.0" style="-fx-background-color: #1b1d24;">
+               <children>
+                  <Label layoutX="14.0" layoutY="57.0" text="Members" textFill="WHITE">
+                     <font>
+                        <Font name="AIGDT" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="member_count" alignment="CENTER" layoutX="165.0" layoutY="5.0" prefHeight="71.0" prefWidth="102.0" text="349" textFill="#3eb58b">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="38.0" fitWidth="41.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icon/icons8_member_32.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="126.0" prefWidth="30.0" />
+            <AnchorPane prefHeight="166.0" prefWidth="268.0" style="-fx-background-color: #1b1d24;">
+               <children>
+                  <Label layoutX="14.0" layoutY="56.0" text="Teams" textFill="WHITE">
+                     <font>
+                        <Font name="AIGDT" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="team_count" alignment="CENTER" layoutX="165.0" layoutY="12.0" prefHeight="58.0" prefWidth="89.0" text="15" textFill="#3eb58b">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="38.0" fitWidth="41.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icon/icons8_microsoft_teams_2019_32.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="126.0" prefWidth="30.0" />
+            <AnchorPane prefHeight="166.0" prefWidth="268.0" style="-fx-background-color: #1b1d24;">
+               <children>
+                  <Label alignment="CENTER" layoutX="16.0" layoutY="52.0" text="Feedbacks" textFill="WHITE">
+                     <font>
+                        <Font name="AIGDT" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="feedcount" alignment="CENTER" layoutX="179.0" layoutY="12.0" prefHeight="58.0" prefWidth="74.0" text="19" textFill="#3eb58b">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="38.0" fitWidth="41.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icon/icons8_conference_32.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="126.0" prefWidth="30.0" />
+            <AnchorPane prefHeight="166.0" prefWidth="268.0" style="-fx-background-color: #1b1d24;">
+               <children>
+                  <Label layoutX="14.0" layoutY="52.0" text="Announcements" textFill="WHITE">
+                     <font>
+                        <Font name="AIGDT" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="announce_counts" alignment="CENTER" layoutX="206.0" layoutY="12.0" prefHeight="24.0" prefWidth="48.0" text="8" textFill="#3eb58b">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="38.0" fitWidth="41.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icon/icons8_secured_letter_32.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <AnchorPane layoutX="34.0" layoutY="299.0" prefHeight="231.0" prefWidth="571.0" style="-fx-background-color: #1b1d24;">
+         <children>
+            <Label layoutX="20.0" layoutY="78.0" text="Capture The Flag" textFill="WHITE">
+               <font>
+                  <Font name="AIGDT" size="21.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="57.0" fitWidth="60.0" layoutX="19.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/icons8_Flag_32.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="267.0" layoutY="21.0" prefHeight="27.0" prefWidth="121.0" text="Current CTF :" textFill="#3eb58b">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="267.0" layoutY="66.0" prefHeight="27.0" prefWidth="142.0" text="Upcoming CTF :" textFill="#3eb58b">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="388.0" layoutY="21.0" prefHeight="27.0" prefWidth="121.0" text="Nill" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="ctf_nam" layoutX="410.0" layoutY="66.0" prefHeight="27.0" prefWidth="121.0" text="SUST CTF" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Hyperlink layoutX="133.0" layoutY="164.0" onMouseClicked="#ctf_time" prefHeight="38.0" prefWidth="95.0" text="CTF Time" textFill="#f20404">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Hyperlink>
+            <ImageView fitHeight="38.0" fitWidth="102.0" layoutX="25.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="anch" layoutX="42.0" layoutY="545.0" prefHeight="207.0" prefWidth="602.0">
+         <children>
+            <Circle layoutX="97.0" layoutY="100.0" radius="95.0" strokeType="INSIDE" strokeWidth="10.0">
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.7109004739336493">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.03563596308231354" green="0.425612211227417" blue="0.5131579041481018" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.14851364493370056" green="0.6052631735801697" blue="0.43778833746910095" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke>
+            </Circle>
+            <Circle layoutX="97.0" layoutY="100.0" radius="85.0" stroke="#682323" strokeType="INSIDE" strokeWidth="5.0" />
+            <Circle layoutX="97.0" layoutY="100.0" radius="78.0" stroke="#0a1f3b" strokeType="INSIDE" strokeWidth="10.0" />
+            <Label fx:id="hour" alignment="CENTER" layoutX="46.0" layoutY="49.0" prefHeight="102.0" prefWidth="102.0" text="12" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="69.0" />
+               </font>
+            </Label>
+            <Circle layoutX="299.0" layoutY="103.0" radius="95.0" strokeType="INSIDE" strokeWidth="10.0">
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.7109004739336493">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.16569200158119202" green="0.5263158082962036" blue="0.4061078727245331" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.05324074253439903" green="0.5040590763092041" blue="0.6052631735801697" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke>
+            </Circle>
+            <Circle layoutX="299.0" layoutY="103.0" radius="85.0" stroke="#682323" strokeType="INSIDE" strokeWidth="5.0" />
+            <Circle layoutX="299.0" layoutY="103.0" radius="78.0" stroke="#2b2333" strokeType="INSIDE" strokeWidth="10.0" />
+            <Label fx:id="min" alignment="CENTER" layoutX="248.0" layoutY="49.0" prefHeight="102.0" prefWidth="102.0" text="39" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="69.0" />
+               </font>
+            </Label>
+            <Circle layoutX="499.0" layoutY="104.0" radius="95.0" strokeType="INSIDE" strokeWidth="10.0">
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.16569200158119202" green="0.5263158082962036" blue="0.4061078727245331" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.2229532152414322" green="0.6856116056442261" blue="0.7894737124443054" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke>
+            </Circle>
+            <Circle layoutX="499.0" layoutY="104.0" radius="85.0" stroke="#682323" strokeType="INSIDE" strokeWidth="5.0" />
+            <Circle layoutX="499.0" layoutY="104.0" radius="78.0" stroke="#423b43" strokeType="INSIDE" strokeWidth="10.0" />
+            <Label fx:id="second" alignment="CENTER" layoutX="448.0" layoutY="49.0" prefHeight="102.0" prefWidth="102.0" text="45" textFill="WHITE">
+               <font>
+                  <Font size="69.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Rectangle fx:id="rect1" arcHeight="5.0" arcWidth="5.0" height="360.0" layoutX="750.0" layoutY="350.0" stroke="#ab9e9e" strokeType="INSIDE" strokeWidth="4.0" width="360.0" />
+      <Rectangle fx:id="rect2" arcHeight="5.0" arcWidth="5.0" height="340.0" layoutX="761.0" layoutY="360.0" rotate="45.0" stroke="#ab9e9e" strokeType="INSIDE" strokeWidth="4.0" width="340.0" />
+      <Label fx:id="text_hack" alignment="CENTER" layoutX="708.0" layoutY="499.0" prefHeight="58.0" prefWidth="454.0" text="Try to be #root" textAlignment="CENTER" textFill="#056119">
+         <font>
+            <Font name="ISOCTEUR" size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

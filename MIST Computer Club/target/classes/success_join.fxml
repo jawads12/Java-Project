@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="171.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SuccessJoin">
+   <children>
+      <Text layoutX="116.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to MIST Computer Club" wrappingWidth="240.1910400390625" />
+      <Button layoutX="294.0" layoutY="113.0" mnemonicParsing="false" onMouseClicked="#thankyou" text="Thank you" />
+   </children>
+</AnchorPane>

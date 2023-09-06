@@ -1,0 +1,10 @@
+.head-background
+{
+    -fx-background-color: linear-gradient(to left,#795AF3 ,#3929E0);
+}
+
+
+
+.scroll-pane {
+    -fx-background-color: #02030A;
+}

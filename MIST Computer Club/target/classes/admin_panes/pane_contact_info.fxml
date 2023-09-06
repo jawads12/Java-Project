@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="783.0" prefWidth="1196.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.panes.pane_contact_info">
+   <children>
+      <HBox prefHeight="165.0" prefWidth="1231.0">
+         <children>
+            <AnchorPane prefHeight="170.0" prefWidth="1206.0">
+               <children>
+                  <Label layoutX="34.0" layoutY="49.0" text="Members" textFill="#fcf9f9">
+                     <font>
+                        <Font name="Berlin Sans FB" size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="90.0" prefHeight="24.0" prefWidth="206.0" text="Keep contact always!" textFill="#07d7c9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Line endX="920.0" layoutX="285.0" layoutY="64.0" startX="-100.0" stroke="RED" />
+                  <AnchorPane layoutX="740.0" layoutY="86.0" prefHeight="46.0" prefWidth="451.0" style="-fx-background-color: #1b1d24; -fx-background-radius: 60;">
+                     <children>
+                        <TextField fx:id="search_field" alignment="CENTER" focusTraversable="false" prefHeight="56.0" prefWidth="406.0" promptText="Search" style="-fx-background-radius: 60; -fx-background-color: #444345;" styleClass="textfield" stylesheets="@../USER/admin_panes/contacts/textfeild.css">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </TextField>
+                        <ImageView fitHeight="56.0" fitWidth="33.0" layoutX="406.0" layoutY="12.0" onKeyTyped="#search" onMouseClicked="#search" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icon/icons8_search_32.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <HBox layoutY="170.0" prefHeight="31.0" prefWidth="1231.0" style="-fx-background-color: #12100c;">
+         <children>
+            <Label alignment="CENTER" prefHeight="31.0" prefWidth="328.0" text="Name" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="31.0" prefWidth="191.0" text="ID" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="31.0" prefWidth="211.0" text="DEPARTMENT" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="31.0" prefWidth="177.0" text="Level" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="31.0" prefWidth="271.0" text="Phone" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <ScrollPane layoutY="200.0" prefHeight="586.0" prefWidth="1231.0" stylesheets="@../css/scroll_pane.css">
+         <content>
+            <VBox fx:id="pnl_contacts" prefHeight="584.0" prefWidth="1225.0" style="-fx-background-color: black;" />
+         </content>
+         <styleClass>
+            <String fx:value="scroll-pane" />
+            <String fx:value="corner" />
+            <String fx:value="increment-button" />
+            <String fx:value="decrement-button" />
+            <String fx:value="scroll-bar" />
+            <String fx:value="thumb" />
+            <String fx:value="track" />
+         </styleClass>
+      </ScrollPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,7 @@
+.polygon{
+    -fx-fill : #9da496;
+}
+
+.polygon: hover{
+    -fx-fill : white;
+}

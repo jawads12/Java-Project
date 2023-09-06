@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: black;" stylesheets="@login_reg.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.register">
+   <Text fill="#e4e4e4" fontSmoothingType="LCD" layoutX="316.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIST  Cyber Security Club Joining Form" textAlignment="CENTER" wrappingWidth="568.7781372070312">
+      <font>
+         <Font name="System Bold" size="29.0" />
+      </font>
+   </Text>
+   <TextField fx:id="name_fx" focusTraversable="false" layoutX="80.0" layoutY="130.0" prefHeight="39.0" prefWidth="378.0" promptText="Name" styleClass="register-form-textfield" stylesheets="@login_reg.css">
+      <font>
+         <Font size="19.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextField>
+   <TextField fx:id="id_fx" focusTraversable="false" layoutX="830.0" layoutY="130.0" prefHeight="39.0" prefWidth="292.0" promptText="MIST ID" styleClass="register-form-textfield" stylesheets="@login_reg.css">
+      <font>
+         <Font size="19.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextField>
+   <TextField fx:id="email_fx" focusTraversable="false" layoutX="80.0" layoutY="201.0" prefHeight="42.0" prefWidth="594.0" promptText="Email" styleClass="register-form-textfield">
+      <font>
+         <Font size="19.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextField>
+   <TextField fx:id="addr_fx" focusTraversable="false" layoutX="79.0" layoutY="275.0" prefHeight="42.0" prefWidth="594.0" promptText="Address" styleClass="register-form-textfield">
+      <font>
+         <Font size="19.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextField>
+   <TextField fx:id="phone_fx" focusTraversable="false" layoutX="696.0" layoutY="203.0" prefHeight="42.0" prefWidth="418.0" promptText="Phone" styleClass="register-form-textfield">
+      <font>
+         <Font size="19.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextField>
+   <DatePicker fx:id="dob" focusTraversable="false" layoutX="233.0" layoutY="373.0" onAction="#getdate" prefHeight="39.0" prefWidth="162.0" promptText="mm/dd/yyyy" styleClass="date-picker" />
+   <Label layoutX="80.0" layoutY="366.0" prefHeight="42.0" prefWidth="135.0" text="Date of Birth" textFill="WHITE">
+      <font>
+         <Font size="18.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Label>
+   <Line endX="222.60003662109375" layoutX="171.0" layoutY="419.0" startX="-100.0" stroke="#34ebde" strokeWidth="2.0" />
+   <TextField fx:id="dept_fx" focusTraversable="false" layoutX="511.0" layoutY="130.0" prefHeight="39.0" prefWidth="292.0" promptText="DEPT" styleClass="register-form-textfield" stylesheets="@login_reg.css">
+      <font>
+         <Font size="19.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor>
+   </TextField>
+   <Label fx:id="photolabel" layoutX="411.0" layoutY="377.0" onMouseClicked="#photochoose" prefHeight="42.0" prefWidth="277.0" styleClass="register-form-textfield" text="empty" textFill="WHITE">
+      <font>
+         <Font size="19.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Label>
+   <PasswordField fx:id="con_pass_fx" layoutX="71.0" layoutY="613.0" prefHeight="42.0" prefWidth="354.0" promptText="Confirm Password" styleClass="register-form-passtextfield">
+      <font>
+         <Font size="19.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor>
+   </PasswordField>
+   <JFXButton layoutX="1055.0" layoutY="613.0" onMouseClicked="#joins" prefHeight="59.0" prefWidth="114.0" style="-fx-background-color: #400321;" text="Join" textFill="#00d4ff">
+      <font>
+         <Font name="System Bold" size="23.0" />
+      </font>
+   </JFXButton>
+   <JFXButton layoutX="680.0" layoutY="377.0" onMouseClicked="#photochoose" prefHeight="42.0" prefWidth="122.0" style="-fx-background-color: #400321;" styleClass="register-form-textfield" text="Add Photo" textFill="#f29c6d">
+      <font>
+         <Font size="19.0" />
+      </font>
+   </JFXButton>
+   <PasswordField fx:id="passfx" layoutX="71.0" layoutY="521.0" prefHeight="42.0" prefWidth="354.0" promptText="Password" styleClass="register-form-passtextfield">
+      <font>
+         <Font size="19.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor>
+   </PasswordField>
+   <TextField fx:id="level" focusTraversable="false" layoutX="696.0" layoutY="277.0" prefHeight="42.0" prefWidth="418.0" promptText="Level" styleClass="register-form-textfield">
+      <font>
+         <Font size="19.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor>
+   </TextField>
+   <ImageView fx:id="img" fitHeight="270.0" fitWidth="278.0" layoutX="869.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@icon/csc.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="39.0" fitWidth="42.0" layoutX="21.0" layoutY="23.0" onMouseClicked="#exit" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@icon/icons8_back_32.png" />
+      </image>
+   </ImageView>
+   <ImageView fx:id="im3" fitHeight="50.0" fitWidth="50.0" layoutX="1089.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@USER/icon/icons8_password_32.png" />
+      </image>
+   </ImageView>
+   <ImageView fx:id="im8" fitHeight="41.0" fitWidth="41.0" layoutX="1010.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@icon/icons8_hacking_32.png" />
+      </image>
+   </ImageView>
+   <ImageView fx:id="im4" fitHeight="41.0" fitWidth="43.0" layoutX="774.0" layoutY="622.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@USER/icon/icons8_Cyber_Security_32.png" />
+      </image>
+   </ImageView>
+   <ImageView fx:id="im7" fitHeight="50.0" fitWidth="41.0" layoutX="529.0" layoutY="622.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@icon/icons8_malwarebytes_32.png" />
+      </image>
+   </ImageView>
+   <ImageView fx:id="im5" fitHeight="29.0" fitWidth="32.0" layoutX="556.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@icon/icons8_blue_screen_of_death_32.png" />
+      </image>
+   </ImageView>
+   <ImageView fx:id="im2" fitHeight="31.0" fitWidth="29.0" layoutX="712.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@icon/icons8_virus_research_32.png" />
+      </image>
+   </ImageView>
+   <ImageView fx:id="im1" fitHeight="41.0" fitWidth="43.0" layoutX="260.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@icon/icons8_Virus_32.png" />
+      </image>
+   </ImageView>
+</AnchorPane>

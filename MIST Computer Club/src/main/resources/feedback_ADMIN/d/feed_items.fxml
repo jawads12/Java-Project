@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="itemC" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="53.0" prefWidth="1231.0" spacing="80.0" style="-fx-background-color: #02030A; -fx-background-radius: 5; -fx-background-insets: 0;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.panes.feed_items">
+    <children>
+        <Label fx:id="class_name" alignment="CENTER" prefHeight="30.0" prefWidth="199.0" text="Class1" textAlignment="CENTER" textFill="#b7c3d7">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label fx:id="name" alignment="CENTER" prefHeight="30.0" prefWidth="167.0" text="Jawad" textAlignment="CENTER" textFill="#b7c3d7">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="feed" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="706.0" text="Valo Lagse" textAlignment="CENTER" textFill="#b7c3d7">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+    </children>
+    <effect>
+        <DropShadow blurType="GAUSSIAN" height="5.0" radius="2.0" width="5.0" />
+    </effect>
+</HBox>

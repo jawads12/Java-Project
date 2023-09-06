@@ -1,0 +1,21 @@
+ .textfield{
+    -fx-background-color:transparent;
+      -fx-text-inner-color:white;
+      -fx-border-color: grey;
+      -fx-prompt-text-fill: #f29c6d;
+      -fx-border-bottom: 2px;
+      -fx-border-radius : 40;
+
+       //-fx-border-width: 0 0 2 0
+
+      -fx-border-bottom-style: dotted;
+      //-fx-text-fill: red;
+ }
+
+ .team_name_textfield{
+     -fx-prompt-text-fill: #f29c6d;
+      -fx-text-inner-color:red;
+ }
+ .team_name_textfield:focused{
+    -fx-prompt-text-fill: transparent;
+ }

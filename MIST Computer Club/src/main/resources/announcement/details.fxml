@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane focusTraversable="true" prefHeight="574.0" prefWidth="940.0" style="-fx-background-color: #01131a;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.announcements.details">
+   <children>
+      <Text fill="#e40000" layoutX="82.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Announcements" wrappingWidth="372.9081573486328">
+         <font>
+            <Font name="Kristen ITC" size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="annc_name" alignment="CENTER" layoutX="83.0" layoutY="171.0" prefHeight="51.0" prefWidth="825.0" styleClass="addCTF-textfield" stylesheets="@../css/addCTFtextfeild.css">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <JFXButton layoutX="724.0" layoutY="461.0" onMouseClicked="#OK_anc" prefHeight="66.0" prefWidth="139.0" style="-fx-background-color: #042530;" text="Close" textFill="#f29c6d">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </JFXButton>
+      <TextField fx:id="annc_name1" alignment="CENTER" layoutX="83.0" layoutY="252.0" prefHeight="51.0" prefWidth="825.0" styleClass="addCTF-textfield" stylesheets="@../css/addCTFtextfeild.css">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="annc_name2" alignment="CENTER" layoutX="83.0" layoutY="329.0" prefHeight="51.0" prefWidth="825.0" styleClass="addCTF-textfield" stylesheets="@../css/addCTFtextfeild.css">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

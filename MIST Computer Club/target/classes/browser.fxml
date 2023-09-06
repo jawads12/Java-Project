@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="anchor" focusTraversable="true" prefHeight="800.0" prefWidth="1400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.panes.browser">
+   <children>
+      <TextField fx:id="browse" alignment="CENTER" focusTraversable="false" layoutX="304.0" layoutY="26.0" prefHeight="66.0" prefWidth="791.0" promptText="Browse Here" style="-fx-background-color: silver; -fx-background-radius: 60;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button layoutX="1110.0" layoutY="26.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="106.0" style="-fx-background-color: #512424;" stylesheets="@css/buttonstyles.css" text="Search" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="783.0" prefWidth="1196.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.USER.my_profile">
+   <children>
+      <HBox prefHeight="142.0" prefWidth="1231.0">
+         <children>
+            <AnchorPane prefHeight="142.0" prefWidth="1217.0">
+               <children>
+                  <Label layoutX="24.0" layoutY="49.0" text="MY PROFILE" textFill="#fcf9f9">
+                     <font>
+                        <Font name="Berlin Sans FB" size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="90.0" prefHeight="24.0" prefWidth="206.0" text="Update your profile" textFill="#07d7c9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Line endX="968.0" layoutX="240.0" layoutY="64.0" startX="-52.80000305175781" startY="7.62939453125E-6" stroke="#ea0202" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="anchor" layoutY="85.0" prefHeight="669.0" prefWidth="1231.0">
+         <children>
+            <JFXButton layoutX="912.0" layoutY="23.0" onMouseClicked="#update_profile" prefHeight="30.0" prefWidth="234.0" style="-fx-background-color: #482d57;" text="Update Profile" textAlignment="CENTER" textFill="WHITE" />
+            <JFXButton layoutX="912.0" layoutY="63.0" onMouseClicked="#update_pass" prefHeight="29.0" prefWidth="234.0" style="-fx-background-color: #482d57;" text="Change Password" textAlignment="CENTER" textFill="WHITE" />
+            <Text fill="WHITE" layoutX="74.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name           :" wrappingWidth="137.33679199218756">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="77.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID                 :" wrappingWidth="137.3367919921875">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="77.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dept             :" wrappingWidth="151.2">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="77.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email            :" wrappingWidth="151.2">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="77.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address        :" wrappingWidth="151.2">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="77.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone           :" wrappingWidth="151.2">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="76.0" layoutY="538.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of Birth :" wrappingWidth="151.2">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="name" alignment="CENTER" layoutX="227.0" layoutY="71.0" prefHeight="26.0" prefWidth="546.0" style="-fx-background-color: black; -fx-border-width: 0 0 1 0; -fx-border-color: white;" styleClass="textfield" stylesheets="@textfeild.css">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="id" alignment="CENTER" layoutX="229.0" layoutY="176.0" prefHeight="26.0" prefWidth="546.0" style="-fx-background-color: black; -fx-border-width: 0 0 1 0; -fx-border-color: white;" styleClass="textfield" stylesheets="@textfeild.css">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="dept" alignment="CENTER" layoutX="229.0" layoutY="238.0" prefHeight="26.0" prefWidth="546.0" style="-fx-background-color: black; -fx-border-width: 0 0 1 0; -fx-border-color: white;" styleClass="textfield" stylesheets="@textfeild.css">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="email" alignment="CENTER" layoutX="229.0" layoutY="297.0" prefHeight="26.0" prefWidth="546.0" style="-fx-background-color: black; -fx-border-width: 0 0 1 0; -fx-border-color: white;" styleClass="textfield" stylesheets="@textfeild.css">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="address" alignment="CENTER" layoutX="229.0" layoutY="360.0" prefHeight="26.0" prefWidth="546.0" style="-fx-background-color: black; -fx-border-width: 0 0 1 0; -fx-border-color: white;" styleClass="textfield" stylesheets="@textfeild.css">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="phone" alignment="CENTER" layoutX="229.0" layoutY="430.0" prefHeight="26.0" prefWidth="546.0" style="-fx-background-color: black; -fx-border-width: 0 0 1 0; -fx-border-color: white;" styleClass="textfield" stylesheets="@textfeild.css">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="dob" alignment="CENTER" layoutX="228.0" layoutY="499.0" prefHeight="26.0" prefWidth="546.0" style="-fx-background-color: black; -fx-border-width: 0 0 1 0; -fx-border-color: white;" styleClass="textfield" stylesheets="@textfeild.css">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Text fill="WHITE" layoutX="76.0" layoutY="607.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team Name  :" wrappingWidth="151.2">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="team_name" alignment="CENTER" layoutX="228.0" layoutY="568.0" prefHeight="26.0" prefWidth="546.0" style="-fx-background-color: black; -fx-border-width: 0 0 1 0; -fx-border-color: white;" styleClass="textfield" stylesheets="@textfeild.css">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <ImageView fx:id="im3" fitHeight="50.0" fitWidth="50.0" layoutX="903.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/icons8_password_32.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im8" fitHeight="41.0" fitWidth="41.0" layoutX="1069.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icon/icons8_hacking_32.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im4" fitHeight="41.0" fitWidth="43.0" layoutX="878.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/icons8_Cyber_Security_32.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im7" fitHeight="50.0" fitWidth="41.0" layoutX="1109.0" layoutY="504.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icon/icons8_malwarebytes_32.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im5" fitHeight="29.0" fitWidth="32.0" layoutX="878.0" layoutY="594.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icon/icons8_blue_screen_of_death_32.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im6" fitHeight="29.0" fitWidth="32.0" layoutX="1008.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icon/icons8_phishing_32.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im2" fitHeight="31.0" fitWidth="29.0" layoutX="587.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icon/icons8_virus_research_32.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im1" fitHeight="41.0" fitWidth="43.0" layoutX="343.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icon/icons8_Virus_32.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="74.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Level             :" wrappingWidth="137.33679199218756">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="level" alignment="CENTER" layoutX="227.0" layoutY="122.0" prefHeight="26.0" prefWidth="546.0" style="-fx-background-color: black; -fx-border-width: 0 0 1 0; -fx-border-color: white;" styleClass="textfield" stylesheets="@textfeild.css">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

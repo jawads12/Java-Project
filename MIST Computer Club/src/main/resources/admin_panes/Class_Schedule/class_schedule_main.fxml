@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="783.0" prefWidth="1196.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mist_computer_club.controller.Class_Schedule.class_schedule_info">
+   <children>
+      <HBox prefHeight="142.0" prefWidth="1196.0">
+         <children>
+            <AnchorPane prefHeight="97.0" prefWidth="1196.0">
+               <children>
+                  <Label layoutX="34.0" layoutY="49.0" text="Schedule" textFill="#fcf9f9">
+                     <font>
+                        <Font name="Berlin Sans FB" size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="90.0" prefHeight="24.0" prefWidth="586.0" text="“The key is not to prioritize what's on your schedule, but to schedule your priorities.” " textFill="#07d7c9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Line endX="968.0" layoutX="240.0" layoutY="64.0" startX="-89.59999084472656" startY="7.62939453125E-6" stroke="#ea0202" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="anchor" layoutX="-2.0" layoutY="119.0" prefHeight="600.0" prefWidth="1196.0" style="-fx-background-color: black;" AnchorPane.bottomAnchor="64.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="119.0" />
+      <ButtonBar layoutX="522.0" layoutY="732.0">
+         <buttons>
+            <Polyline fx:id="left_arrow" fill="#898989" onMouseClicked="#left_arrow" points="-49.99993896484375, 8.79998779296875, -71.20001220703125, 21.0, -49.99993896484375, 32.0, -49.99993896484375, 8.79998779296875" strokeType="INSIDE" />
+            <Circle fx:id="first_circle" fill="#063663" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="second_circle" fill="#063663" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="third_circle" fill="#063663" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+            <Polyline fx:id="rightarrow" fill="#898989" onMouseClicked="#rightarrow" points="-49.99993896484375, 8.79998779296875, -27.20001220703125, 21.5999755859375, -49.99993896484375, 32.0, -49.99993896484375, 8.79998779296875" strokeType="INSIDE" />
+         </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+ .textfield{
+    -fx-background-color:transparent;
+      -fx-text-inner-color:white;
+     // -fx-border-color: grey;
+      -fx-prompt-text-fill: white;
+      -fx-border-bottom: 1px;
+    //  -fx-border-radius : 40;
+
+       -fx-border-width: 0 0 0 0
+
+      //-fx-border-bottom-style: dotted;
+      //-fx-text-fill: red;
+ }

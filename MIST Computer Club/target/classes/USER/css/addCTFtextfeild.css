@@ -1,0 +1,14 @@
+.addCTF-textfield{
+    -fx-background-color:transparent;
+      -fx-text-inner-color:white;
+      -fx-border-color: #34ebde;
+      -fx-prompt-text-fill: #f29c6d;
+      -fx-border-bottom: 2px;
+
+       -fx-border-width: 0 0 1 0
+
+      //-fx-border-bottom-style: dotted;
+      //-fx-text-fill: red;
+
+
+}
